@@ -3,17 +3,16 @@
 
 
 **This repo contains two apps:**
-- **BitcoinPrice**
-- **YnetNews**
+- **BitcoinPrice and YnetNews**
 
 The first app shows the current price of bitcoin and the average price for the last 10 minutes.
 The second app displays the latest news from Ynet.
 
-The objective is to deploy the apps in a Kubernetes cluster, it has developed using minikube.
+The apps deployed in a Kubernetes using minikube.
 
 For each website i have used yaml file , which has:
-- **Deployment**: build the pod under supervison, so every pod know the docker image to run over.
-- **  Service:** enables network access from the cluster or between external clusters. 
+- **Deployment:** build the pod under supervison .
+- **Service:** enables network access from the cluster or from external clusters. 
 
 ------------
 
