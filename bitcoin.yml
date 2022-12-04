@@ -30,7 +30,6 @@ metadata:
   labels:
     app: bitcoin-service
 spec:
-  # type: NodePort
   selector:
     app: bitcoin
   ports:
